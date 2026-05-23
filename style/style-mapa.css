@@ -1,0 +1,114 @@
+body {
+		background-color: #f5f5f5;
+		max-width: 100%;
+		margin: auto 0;
+		padding-top: 64px;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-bottom: 64px;
+		font-size: 1.1em;
+		line-height: 150%;
+		color:#1e1e1e;
+		position:center;
+			}
+
+.name {
+		padding: 1%;
+		font-size: 2em;
+		color:blue
+}
+
+.sub {
+		margin-top: 10px;
+		padding: 1%;
+		font-size: 1.2em;
+		color:blue
+}
+
+.subtitulo {
+		font-size: 0.7em;
+		margin-bottom: 10px;
+}
+
+.nav {
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: black;
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+body::selection {
+		color: white;
+		background-color: blue;
+}
+
+img {
+		margin-bottom: 1%
+}
+			
+a {
+		color: blue;
+			}
+			
+a:hover {
+		background-color: blue;
+		color: white;
+	
+	}
+			
+ul {
+		padding: 0px;
+			}
+			
+ol {
+		padding: 0px;
+		margin-bottom: 30px;
+			}
+			
+li {
+		margin-top: 30px;
+		margin-left: 30px;
+}
+
+.footer {
+		margin-top: 10%;
+		max-width: 920px;
+		font-size: 0.9em;
+		padding:1%;
+		color: blue;
+		margin-bottom: 0px;
+}
+
+.projetos {
+		margin-top: 4%;
+		margin-bottom: 2%;
+
+}
+
+.collapsible-menu {
+		padding: 1%;
+		color: blue;
+		font-size: 1.1em;
+		font-family:sans-serif;
+}
+
+
+.conteudo {
+		max-height: 0;
+		font-family:serif;
+		color: black;
+		font-size: 1.2em;
+		line-height: 130%;
+		overflow: hidden;
+}
+
+input:checked ~ .conteudo {
+		max-height: 100%;
+		max-width: 920px;
+		margin-top: 1%;
+		padding: 2%;
+		border-style: solid;
+		border-width: 1px;
+		border-color: blue;
+}
